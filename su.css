@@ -1,0 +1,304 @@
+body{
+    margin: 0;
+}
+.main{
+    height: 1000px;
+    width: 1340px;
+    /* background-color: red; */
+    padding: 0 auto;
+    margin: 0 auto;
+}
+header{
+    height: 200px;
+    width: 1340;
+    background-color:green ;
+    background: url(IMG-20240716-WA0001.jpg) no-repeat;
+    background-size: cover;
+    height: 1000px;
+
+    /* position: unset; */
+    /* float: right; */
+}
+.logo{
+    margin-left: 0px;
+    padding-left: 30px;
+   font-size: 50px;
+   width: 700px;
+   height: 150px;
+   padding-bottom: 0;
+
+}
+.logo-text{
+    color: blue;
+    font-size: 50px;
+}
+ul{
+    /* background-color: blue; */
+    float: right;
+    position: relative;
+    bottom : 150px;
+    margin-top: 0;
+    list-style: none;
+    padding-left: 0;
+    padding-top: 20px;
+    display: block;
+    font-family: system-ui;
+    
+ 
+}
+ul li{
+    float: left;
+    font-size: 25px;
+    padding-right: 20px;
+    /* margin: 25px; */
+    text-align: center;
+    height: 40px;
+    width: 100px;
+    text-decoration: none;
+    
+
+    /* background-color: blue; */
+    
+}
+
+.Home{
+    text-decoration: none;
+    color: black;
+}
+
+ul :hover{
+    /* background-color: rgb(206, 108, 206); */
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: gray;
+    font-size: 30px;
+}
+.cent{
+    width: 1200px;
+    display:inline-block ;
+    /* float: 400px;  */
+position: relative;
+}
+
+.div1{
+    /* height: 1300px; */
+    width: 610px;
+    /* left: 100px; */
+    /* background-color: red; */
+    /* text-align: center; */
+  float:right; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    position:ab;
+}
+.nature{
+    font-size: 0px;
+}
+.div2{
+    /* float:right;  */
+   font-family: serif;
+margin-top: 50px;
+margin-left: 80px;
+    font-size : 20px;
+    text-align: center;
+  }
+  .button{
+    font-size:20px ;
+    text-align: center;
+    /* display: block; */
+    font-family:'Courier New', Courier, monospace;
+    background-color: yellow;
+    margin-left: 590px;
+    width: 210px;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 8px;
+    
+    
+  }
+  .button:hover{
+    color: red;
+    cursor: pointer;
+    background-color: rgb(219, 219, 11);
+    font-size: 25px;
+    transition: 0.4s;
+
+  }
+  .div3{
+    height: 100px;
+    width: 1340px;
+    text-align: center;
+    /* background-color:brown; */
+    font-size: 50px;
+    text-decoration:underline;
+  }
+  .div4{
+    height: 400px;
+    width: 1300px;
+    margin: 20px;
+    /* background-color: rgb(0, 132, 255); */
+position: absolute;
+/* float: right; */
+display: flex;
+}
+.div4col1{
+    height: 400px;
+    width: 446px;
+    /* background-color: blue; */
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    /* color: red; */
+    background: url(images.jpeg) no-repeat;
+    background-position: center;
+    border: 1px black solid;
+}
+.div4col2{
+    height: 400px;
+    width: 446px;
+    /* background-color: blue; */
+    position: relative;
+    margin-right: 10px;
+    float: left;
+    /* color: red; */
+    background: url(images\ \(1\).jpeg) no-repeat;
+    background-size: cover;
+    border: 1px black solid;
+}
+.div4col3{
+    height: 400px;
+    width: 447px;
+    /* background-color: blue; */
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    color: red;
+    background: url(images\ \(2\).jpeg) no-repeat;
+    background-size:cover;
+    border: 1px black solid;
+}
+.div5{
+    height: 300px;
+    width: 1300px;
+    margin: 20px;
+    /* background-color: rgb(0, 132, 255); */
+/* position: absolute; */
+/* float: right; */
+display: flex;}
+.div5col1{
+    height: 140px;
+    width: 433px;
+    /* background-color: blue; */
+    position: relative;
+    float: left;
+    color: black;
+    /* background: url(images\ \(2\).jpeg) no-repeat; */
+    background-size:cover;
+    padding-top: 20px;
+    /* text-align: center; */
+    text-justify: auto;
+    text-align: justify;
+    /* display: block; */
+    margin-right: 10px;
+    border: 1px black solid;
+    border-top: none;
+    /* text-decoration: none; */
+}
+
+.div5col2{
+    height: 140px;
+    width: 433px;
+    /* background-color: blue; */
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    color: black;
+    border: 1px black solid;
+    /* background: url(images\ \(2\).jpeg) no-repeat; */
+    padding-top: 20px;
+    background-size:cover;
+    text-align: justify;
+    border-top: none;
+
+}
+.div5col3{
+    height: 140px;
+    width: 433px;
+    /* background-color: blue; */
+    position: relative;
+    float: left;
+    border: 1px black solid;
+    margin-right: 10px;
+    color: black;
+    border-top: none;
+    /* background: url(images\ \(2\).jpeg) no-repeat; */
+background-size:cover;
+padding-top: 20px;
+text-align: justify;}
+
+.king {
+    text-align:;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    
+
+}
+
+.div6{
+    height: 400px;
+    width: 1350px;
+    /* border: 2px black solid; */
+    padding-top: 3px;
+
+    background-color: rgb(192, 192, 192);
+   /* position: absolute; */
+
+}
+.div7{
+    font-size: 20px;
+    /* position: relative; */
+    /* background-color: green; */
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.div8{
+    height: 30px;
+    width: 1350px;
+    background-color: gray;
+    color: black;
+    /* display: block; */
+        
+}
+
+.div9{
+    text-align:end;
+    background-color: gray;
+    width: 100px;
+    display: block;
+    margin-left: 1240px;
+    padding-right: 10px;
+    height: 30px;
+
+
+}
+.div9:hover{
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s;
+    background-color: rgb(110, 107, 107);
+}
+
+footer{
+    width: 1340px;
+    background-color: rgb(65, 61, 61);
+    text-align: center;
+    font-size: x-large;
+    height: 50px;
+    padding-top: 10px;
+}
+
+/* About page */
